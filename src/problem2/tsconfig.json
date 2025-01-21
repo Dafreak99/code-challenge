@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base Typescript Config",
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowUmdGlobalAccess": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
